@@ -1,7 +1,4 @@
 def ask_question(question, options, correct_answer):
-
-    
-
     print("\n" + question)
     for option in options:
         print(f"- {option}")
