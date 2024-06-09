@@ -35,7 +35,7 @@ def main():
             "options": ["Earth", "Mars", "Jupiter", "Saturn"],
             "answer": "Mars"
         },
-        "When was Indian national Anthem was first sung?": {
+        "When was Indian national Anthem first sung?": {
             "options": ["Aug15th 1947", "Jan26th 1950", "Dec27th 1911", "None of the above"],
             "answer": "Dec27th 1911"
         },
