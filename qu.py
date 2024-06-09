@@ -1,4 +1,4 @@
-def ask_question(question, options, correct_answer):
+def quiz_question(question, options, correct_answer):
     print("\n" + question)
     for option in options:
         print(f"- {option}")
@@ -20,7 +20,7 @@ def ask_question(question, options, correct_answer):
 def run_quiz(questions):
     score = 0
     for question, data in questions.items():
-        score += ask_question(question, data['options'], data['answer'])
+        score += quiz_question(question, data['options'], data['answer'])
         print(f"Your current score is: {score}")
     return score
 
@@ -36,7 +36,7 @@ def main():
             "answer": "Mars"
         },
         "When was Indian national Anthem first sung?": {
-            "options": ["Aug15th 1947", "Jan26th 1950", "Dec27th 1911", "None of the above"],
+            "options": ["Aug15th 1947", "Jan26th 1950", "Dec27th 1911", "None"],
             "answer": "Dec27th 1911"
         },
         "In which country is the Chernobyl nuclear plant located?": {
