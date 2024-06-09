@@ -8,13 +8,13 @@ def ask_question(question, options, correct_answer):
         if answer in [option.lower() for option in options]:
             break
         else:
-            print(f"Invalid choice. Please type one of the following options: {', '.join(options)}")
+            print(f"Invalid choice. Please type one of the following options: {', '.join(options)}.")
 
     if answer == correct_answer.lower():
         print("Correct!")
         return 3
     else:
-        print(f"{answer} is Incorrect. The correct answer is {correct_answer}")
+        print(f"{answer} is Incorrect. The correct answer is {correct_answer}.")
         return -1
 
 def run_quiz(questions):
