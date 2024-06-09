@@ -35,13 +35,13 @@ def main():
             "options": ["Earth", "Mars", "Jupiter", "Saturn"],
             "answer": "Mars"
         },
-        "Who wrote 'To Kill a Mockingbird'?": {
-            "options": ["Harper Lee", "J.K. Rowling", "Ernest Hemingway", "Mark Twain"],
-            "answer": "Harper Lee"
+        "When was Indian national Anthem was first sung?": {
+            "options": ["Aug15th 1947", "Jan26th 1950", "Dec27th 1911", "None of the above"],
+            "answer": "Dec27th 1911"
         },
-        "Which planet is beside Earth?": {
-            "options": ["Neptune", "Mars", "Jupiter", "Saturn"],
-            "answer": "Mars"
+        "In which country is the Chernobyl nuclear plant located?": {
+            "options": ["Russia", "Ukraine", "India", "Nepal"],
+            "answer": "Ukraine"
         }
     }
 
